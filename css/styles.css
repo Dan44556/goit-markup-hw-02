@@ -1,0 +1,101 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Стилі для хедера */
+.header {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+    padding: 20px;
+}
+
+.logo {
+    color: #f4f4fd;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #f4f4fd;
+    margin-right: 20px;
+}
+
+.contact-info {
+    color: #f4f4fd;
+    margin-top: 10px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #f4f4fd;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Стилі для головної секції */
+.hero-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #4d5ae5;
+    color: #f4f4fd;
+}
+
+.order-button {
+    background-color: #f4f4fd;
+    color: #4d5ae5;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Стилі для секції з лозунгом */
+.slogan-section {
+    padding: 20px;
+}
+
+.slogan-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.slogan-list li {
+    margin-bottom: 20px;
+}
+
+/* Стилі для секції з командою */
+.team-section {
+    padding: 20px;
+}
+
+.team-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.team-list li {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Стилі для футера */
+.footer {
+    background-color: #2e2f42;
+    color: #f4f4fd;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 10px;
+}
