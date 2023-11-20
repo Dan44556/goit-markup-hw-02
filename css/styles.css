@@ -2,13 +2,14 @@ head {
     font-family: "Roboto", "Raleway", sans-serif;
 }
 /* Загальні стилі */
+/* styles.css */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 
-/* Стилі для логотипу в навігації */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -17,43 +18,69 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block; /* Додаємо це, щоб регулювати відстань між логотипом та іншими елементами навігації */
 }
 
-.logo span {
-    color: #2e2f42;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd; /* Додаємо розділювальну лінію між навігацією та вмістом */
 }
 
-/* Стилі для навігаційних посилань */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
 .nav-link {
+    margin: 0 15px;
+    text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    transition: color 0.3s ease;
 }
 
-.nav-link:hover {
-    color: #404bbf;
-}
-
+.nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
 }
 
-/* Стилі для контактів у хедері */
-.header-address .contact-link {
+.address {
+    font-style: normal;
+}
+
+.contact-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 0.3s ease;
 }
 
-.contact-link:hover {
-    color: #404bbf;
-}
-
+.contact-link:hover,
 .contact-link:focus {
     color: #404bbf;
 }
 
-/* Додайте інші стилі за потреби */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
