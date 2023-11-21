@@ -3,10 +3,6 @@ head {
 }
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 16px; /* Задаємо розмір шрифту */
-    font-weight: normal; /* Задаємо жирність шрифту (normal, bold, lighter, тощо) */
-    line-height: 1.5; /* Задаємо міжрядковий інтервал */
-    /* Інші стилі для тексту тут */
     color: #434455;
     background-color: #FFFFFF;
 }
